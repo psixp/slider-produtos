@@ -1,5 +1,4 @@
-{
-    "produtos": [
+[
         {
             "id": 1,
             "name": "Kit 5 Camisetas Masculinas Básicas Manga Curta",
@@ -71,4 +70,3 @@
             "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/10-1.webp"
         }
     ]
-}
