@@ -17,6 +17,9 @@
 </head>
 
 <body>
+    <div class="loader-wrapper">
+        <img width="100px" src="/images/logo-gif_4_semFundo.gif" alt="" >
+    </div>
     <h2><b>PRODUTOS</b> EM DESTAQUE</h2>
     <div class="slider js-slider">
 <!--         <div class="card">
@@ -42,6 +45,11 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="/js/script.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $('.loader-wrapper').fadeOut(3000);
+        });
+    </script>
 </body>
 
 </html>
